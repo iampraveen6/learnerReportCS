@@ -6,7 +6,7 @@ frontend:
 
 backend:
   image: iampraveen6/backend:latest
-  port: 5000
+  port: 3001
   mongoUri: mongodb+srv://praveen:LeZYHEJJm9BgEYha@microservice.szkxfkh.mongodb.net/learnerreport
 
 mongodb:
