@@ -1,0 +1,14 @@
+replicaCount: 2
+
+frontend:
+  image: iampraveen6/frontend:latest
+  port: 3000
+
+backend:
+  image: iampraveen6/backend:latest
+  port: 5000
+  mongoUri: mongodb+srv://praveen:LeZYHEJJm9BgEYha@microservice.szkxfkh.mongodb.net/learnerreport
+
+mongodb:
+  image: mongo
+  port: 27017
